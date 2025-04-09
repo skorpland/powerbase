@@ -1,0 +1,123 @@
+name: smoke-test
+
+on:
+  schedule:
+    - cron: "23 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  test-ubuntu:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18, 20, 22]
+
+    steps:
+      - name: Set up Node
+        uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4.2.0
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Create test directory
+        run: mkdir test
+      - name: Create package.json
+        working-directory: test
+        run: |
+          cat <<EOF > package.json
+          {
+            "name": "test",
+            "version": "1.0.0",
+            "description": "",
+            "main": "index.js",
+            "scripts": {
+              "lint": "power-mdx-lint --version"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC"
+          }
+          EOF
+      - name: Install power-mdx-lint
+        working-directory: test
+        run: npm install @skorpland/power-mdx-lint
+      - name: Test linter
+        working-directory: test
+        run: npm run lint
+
+  test-macos:
+    runs-on: macos-latest
+
+    strategy:
+      matrix:
+        node-version: [18, 20, 22]
+
+    steps:
+      - name: Set up Node
+        uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4.2.0
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Create test directory
+        run: mkdir test
+      - name: Create package.json
+        working-directory: test
+        run: |
+          cat <<EOF > package.json
+          {
+            "name": "test",
+            "version": "1.0.0",
+            "description": "",
+            "main": "index.js",
+            "scripts": {
+              "lint": "power-mdx-lint --version"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC"
+          }
+          EOF
+      - name: Install power-mdx-lint
+        working-directory: test
+        run: npm install @skorpland/power-mdx-lint
+      - name: Test linter
+        working-directory: test
+        run: npm run lint
+
+  test-windows:
+    runs-on: windows-latest
+
+    strategy:
+      matrix:
+        node-version: [18, 20, 22]
+
+    steps:
+      - name: Set up Node
+        uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4.2.0
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Create test directory
+        run: mkdir test
+      - name: Create package.json
+        shell: pwsh
+        working-directory: test
+        run: |
+          $json = @"
+          {
+            "name": "test",
+            "version": "1.0.0",
+            "description": "",
+            "main": "index.js",
+            "scripts": {
+              "lint": "power-mdx-lint --version"
+            },
+            "keywords": [],
+            "author": "",
+            "license": "ISC"
+          }
+          "@
+          $json | Out-File -FilePath package.json -Encoding utf8
+      - name: Install power-mdx-lint
+        working-directory: test
+        run: npm install @skorpland/power-mdx-lint
+      - name: Test linter
+        working-directory: test
+        run: npm run lint

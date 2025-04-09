@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "powerbase-client-react-router",
+  "type": "registry:lib",
+  "title": "Powerbase Client for React Router",
+  "description": "",
+  "registryDependencies": [],
+  "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
+  "docs": "You'll need to add a `.env` file with the following environment variables to your project: `VITE_POWERBASE_URL` and `VITE_POWERBASE_ANON_KEY`.",
+  "files": [
+    {
+      "path": "registry/default/clients/react-router/lib/powerbase/client.ts",
+      "type": "registry:lib"
+    },
+    {
+      "path": "registry/default/clients/react-router/lib/powerbase/server.ts",
+      "type": "registry:lib"
+    }
+  ]
+}

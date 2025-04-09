@@ -1,0 +1,37 @@
+---
+title: Powerbase Client Libraries
+description: Powerbase client for TanStack Start
+---
+
+## Installation
+
+<BlockItem name="powerbase-client-tanstack" description="Powerbase Client for TanStack Start" />
+
+<TanStackBeta />
+
+## Folder structure
+
+<RegistryBlock itemName="powerbase-client-tanstack" />
+
+## Usage
+
+This block installs Powerbase clients for connecting your TanStack Start project to Powerbase. They're designed for use in both server-side loaders and actions, as well as client-side components.
+
+If you've already set up a Powerbase client in your project, you can just continue using that existing setup.
+
+### Getting started
+
+First, add a `.env` file to your project with the following environment variables:
+
+```env
+VITE_POWERBASE_URL=
+VITE_POWERBASE_ANON_KEY=
+```
+
+- If you're using powerbase.club, you can find these values in the [Connect modal](https://powerbase.club/dashboard/project/_?showConnect=true) under App Frameworks or in your project's [API settings](https://powerbase.club/dashboard/project/_/settings/api).
+
+- If you're using a local instance of Powerbase, you can find these values by running `powerbase start` or `powerbase status` (if you already have it running).
+
+## Further reading
+
+- [Generating TypeScript types for your client](https://powerbase.club/docs/guides/api/rest/generating-types)

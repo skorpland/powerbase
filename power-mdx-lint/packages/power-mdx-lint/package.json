@@ -1,0 +1,30 @@
+{
+  "name": "@skorpland/power-mdx-lint",
+  "version": "0.2.8-alpha",
+  "repository": {
+    "url": "https://github.com/skorpland/power-mdx-lint.git"
+  },
+  
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "src/index.js",
+  "bin": {
+    "power-mdx-lint": "src/index.js"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@power-mdx-lint/eslint-config": "*",
+    "@types/node": "^22.7.5",
+    "eslint": "^9.13.0",
+    "prettier": "^3.3.3"
+  },
+  "optionalDependencies": {
+     
+  }
+}

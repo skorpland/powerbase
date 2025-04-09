@@ -1,0 +1,31 @@
+name: Deploy OG Images
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'powerbase/functions/og-images/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      POWERBASE_ACCESS_TOKEN: ${{ secrets.POWERBASE_ACCESS_TOKEN }}
+      PROJECT_ID: ${{ secrets.OG_IMAGE_POWERBASE_PROJECT_ID }}
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Setup the Powerbase CLI
+        uses: powerbase/setup-cli@v1
+        with:
+          version: latest
+
+      - run: powerbase functions deploy og-images --project-ref $PROJECT_ID --no-verify-jwt

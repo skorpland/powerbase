@@ -1,0 +1,8 @@
+ignore_patterns = ["*00x.mdx", "rule*/**"]
+
+Rule002AdmonitionTypes = false
+Rule003Spelling = false
+Rule004ExcludeWords = false
+
+[Rule001HeadingCase]
+may_uppercase = ["Powerbase"]

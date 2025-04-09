@@ -1,0 +1,13 @@
+{
+  "name": "@skorpland/power-mdx-lint-darwin",
+  "version": "0.2.8-alpha",
+  "repository": {
+    "url": "https://github.com/skorpland/power-mdx-lint"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "os": [
+    "darwin"
+  ]
+}

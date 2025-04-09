@@ -1,0 +1,24 @@
+name: Deploy Function
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      POWERBASE_ACCESS_TOKEN: ${{ secrets.POWERBASE_ACCESS_TOKEN }}
+      POWERBASE_PROJECT_ID: ${{ secrets.POWERBASE_PROJECT_ID }}
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: powerbase/setup-cli@v1
+        with:
+          version: latest
+
+      - run: powerbase functions deploy --project-ref $POWERBASE_PROJECT_ID

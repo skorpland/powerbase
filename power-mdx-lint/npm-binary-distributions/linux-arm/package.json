@@ -1,0 +1,17 @@
+{
+  "name": "@skorpland/power-mdx-lint-linux-arm",
+  "version": "0.2.8-alpha",
+  "repository": {
+    "url": "https://github.com/powerbase-community/power-mdx-lint"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "os": [
+    "linux",
+    "freebsd"
+  ],
+  "cpu": [
+    "arm"
+  ]
+}

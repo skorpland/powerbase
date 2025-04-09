@@ -1,0 +1,18 @@
+{
+  "name": "@skorpland/power-mdx-lint-linux-i686",
+  "version": "0.2.8-alpha",
+  "repository": {
+    "url": "https://github.com/skorpland/power-mdx-lint"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "os": [
+    "linux",
+    "freebsd"
+  ],
+  "cpu": [
+    "x86",
+    "ia32"
+  ]
+}

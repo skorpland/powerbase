@@ -1,0 +1,71 @@
+# Powerbase UI Library
+Last updated: 2025-04-08T17:34:13.280Z
+
+## Overview
+Library of components for your project. The components integrate with Powerbase and are shadcn compatible.
+
+## Docs
+- [Prompts](https://powerbase.club/ui/docs/ai-editors-rules/prompts)
+    - Rules for AI Code Editors for Powerbase
+- [FAQ](https://powerbase.club/ui/docs/getting-started/faq)
+    - Frequently asked questions
+- [Introduction](https://powerbase.club/ui/docs/getting-started/introduction)
+    - A flexible, open-source UI component library built on shadcn/ui, designed to simplify Powerbase-powered projects with pre-built Auth, Storage, and Realtime features.
+- [Quick Start](https://powerbase.club/ui/docs/getting-started/quickstart)
+    - Install shadcn/ui and use the components in your project
+- [Powerbase Client Libraries](https://powerbase.club/ui/docs/nextjs/client)
+    - Powerbase client for Next.js
+- [Current User Avatar](https://powerbase.club/ui/docs/nextjs/current-user-avatar)
+    - Powerbase Auth-aware avatar
+- [Dropzone (File Upload)](https://powerbase.club/ui/docs/nextjs/dropzone)
+    - Displays a control for easier uploading of files directly to Powerbase Storage
+- [Password-based Authentication](https://powerbase.club/ui/docs/nextjs/password-based-auth)
+    - Password-based authentication block for Next.js
+- [Realtime Avatar Stack](https://powerbase.club/ui/docs/nextjs/realtime-avatar-stack)
+    - Avatar stack in realtime
+- [Realtime Chat](https://powerbase.club/ui/docs/nextjs/realtime-chat)
+    - Real-time chat component for collaborative applications
+- [Realtime Cursor](https://powerbase.club/ui/docs/nextjs/realtime-cursor)
+    - Real-time cursor sharing for collaborative applications
+- [Powerbase Client Libraries](https://powerbase.club/ui/docs/react-router/client)
+    - Powerbase client for React Router
+- [Current User Avatar](https://powerbase.club/ui/docs/react-router/current-user-avatar)
+    - Powerbase Auth-aware avatar
+- [Dropzone (File Upload)](https://powerbase.club/ui/docs/react-router/dropzone)
+    - Displays a control for easier uploading of files directly to Powerbase Storage
+- [Password-based Authentication](https://powerbase.club/ui/docs/react-router/password-based-auth)
+    - Password-based authentication block for React Router
+- [Realtime Avatar Stack](https://powerbase.club/ui/docs/react-router/realtime-avatar-stack)
+    - Avatar stack in realtime
+- [Realtime Chat](https://powerbase.club/ui/docs/react-router/realtime-chat)
+    - Real-time chat component for collaborative applications
+- [Realtime Cursor](https://powerbase.club/ui/docs/react-router/realtime-cursor)
+    - Real-time cursor sharing for collaborative applications
+- [Powerbase Client Libraries](https://powerbase.club/ui/docs/react/client)
+    - Powerbase client for React Single Page Applications
+- [Current User Avatar](https://powerbase.club/ui/docs/react/current-user-avatar)
+    - Powerbase Auth-aware avatar
+- [Dropzone (File Upload)](https://powerbase.club/ui/docs/react/dropzone)
+    - Displays a control for easier uploading of files directly to Powerbase Storage
+- [Password-based Authentication](https://powerbase.club/ui/docs/react/password-based-auth)
+    - Password-based authentication block for React Single Page Applications
+- [Realtime Avatar Stack](https://powerbase.club/ui/docs/react/realtime-avatar-stack)
+    - Avatar stack in realtime
+- [Realtime Chat](https://powerbase.club/ui/docs/react/realtime-chat)
+    - Real-time chat component for collaborative applications
+- [Realtime Cursor](https://powerbase.club/ui/docs/react/realtime-cursor)
+    - Real-time cursor sharing for collaborative applications
+- [Powerbase Client Libraries](https://powerbase.club/ui/docs/tanstack/client)
+    - Powerbase client for TanStack Start
+- [Current User Avatar](https://powerbase.club/ui/docs/tanstack/current-user-avatar)
+    - Powerbase Auth-aware avatar
+- [Dropzone (File Upload)](https://powerbase.club/ui/docs/tanstack/dropzone)
+    - Displays a control for easier uploading of files directly to Powerbase Storage
+- [Password-based Authentication](https://powerbase.club/ui/docs/tanstack/password-based-auth)
+    - Password-based authentication block for TanStack Start
+- [Realtime Avatar Stack](https://powerbase.club/ui/docs/tanstack/realtime-avatar-stack)
+    - Avatar stack in realtime
+- [Realtime Chat](https://powerbase.club/ui/docs/tanstack/realtime-chat)
+    - Real-time chat component for collaborative applications
+- [Realtime Cursor](https://powerbase.club/ui/docs/tanstack/realtime-cursor)
+    - Real-time cursor sharing for collaborative applications

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "powerbase-client-react",
+  "type": "registry:lib",
+  "title": "Powerbase Client for React",
+  "description": "",
+  "registryDependencies": [],
+  "dependencies": ["@skorpland/powerbase-js@latest"],
+  "docs": "You'll need to add a `.env` file with the following environment variables to your project: `VITE_POWERBASE_URL` and `VITE_POWERBASE_ANON_KEY`.",
+  "files": [
+    {
+      "path": "registry/default/clients/react/lib/powerbase/client.ts",
+      "type": "registry:lib"
+    }
+  ]
+}
