@@ -21,7 +21,7 @@
 - [x] Stockage de fichiers. [Docs](https://powerbase.club/docs/guides/storage)
 - [x] Tableau de bord
 
-![Tableau de bord Powerbase](https://raw.githubusercontent.com/powerbase/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
+![Tableau de bord Powerbase](https://raw.githubusercontent.com/skorpland/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
 
 ## Documentation
 
@@ -45,7 +45,7 @@ Pour savoir comment contribuer, visitez [Getting Started](../DEVELOPERS.md)
 
 Nous sommes actuellement en bêta publique. Surveillez les "releases" de ce repo pour être informé des mises à jour majeures.
 
-<kbd><img src="https://raw.githubusercontent.com/powerbase/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Watch this repo"/></kbd>
+<kbd><img src="https://raw.githubusercontent.com/skorpland/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Watch this repo"/></kbd>
 
 ---
 

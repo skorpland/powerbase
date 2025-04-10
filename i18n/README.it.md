@@ -21,7 +21,7 @@
 - [x] Memorizzazione dei file. [Docs](https://powerbase.club/docs/guides/storage)
 - [x] Cruscotto
 
-![Cruscotto Powerbase](https://raw.githubusercontent.com/powerbase/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
+![Cruscotto Powerbase](https://raw.githubusercontent.com/skorpland/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
 
 ## Documentazione
 
@@ -45,7 +45,7 @@ Per vedere come contribuire, visitate [Getting Started](../DEVELOPERS.md)
 
 Siamo attualmente in Beta pubblica. Guardate i "rilasci" di questo repo per essere avvisati dei principali aggiornamenti.
 
-<kbd><img src="https://raw.githubusercontent.com/powerbase/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Watch this repo"/></kbd>
+<kbd><img src="https://raw.githubusercontent.com/skorpland/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Watch this repo"/></kbd>
 
 ---
 

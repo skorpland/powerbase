@@ -21,7 +21,7 @@
 - [x] கோப்பு சேமிப்பகம். [ஆவணம்](https://powerbase.club/docs/guides/storage)
 - [x] டாஷ்போர்டு
 
-![Powerbase Dashboard](https://raw.githubusercontent.com/powerbase/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
+![Powerbase Dashboard](https://raw.githubusercontent.com/skorpland/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
 
 ## ஆவணப்படுத்தல்
 
@@ -45,7 +45,7 @@
 
 நாங்கள் தற்போது பொது பீட்டாவில் இருக்கிறோம். முக்கிய துப்பிப்புகளைப் பற்றி அறிவிக்க இந்த ரெப்போவின் "வெளியீடுகளைப்" பாருங்கள்.
 
-<kbd><img src="https://raw.githubusercontent.com/powerbase/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="இந்த ரெப்போவைப் பாருங்கள்"/></kbd>
+<kbd><img src="https://raw.githubusercontent.com/skorpland/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="இந்த ரெப்போவைப் பாருங்கள்"/></kbd>
 
 ---
 

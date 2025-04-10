@@ -17,7 +17,7 @@ use super::{Rule, RuleName, RuleSettings};
 ///
 /// Valid admonition types are enumerated in the `admonition_types` array.
 ///
-/// See an  [example from the Powerbase repo](https://github.com/powerbase/powerbase/blob/master/power-mdx-lint.config.toml#L12).
+/// See an  [example from the Powerbase repo](https://github.com/skorpland/powerbase/blob/master/power-mdx-lint.config.toml#L12).
 #[derive(Debug, Default, RuleName)]
 pub struct Rule002AdmonitionTypes {
     admonition_types: Vec<String>,

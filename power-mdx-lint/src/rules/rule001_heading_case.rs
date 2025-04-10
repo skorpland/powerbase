@@ -41,7 +41,7 @@ use super::{RegexBeginning, RegexEnding, RegexSettings, Rule, RuleName, RuleSett
 /// - `may_uppercase`: Words that may be capitalized even if they are not the first word in the heading.
 /// - `may_lowercase`: Words that may be lowercased even if they are the first word in the heading.
 ///
-/// See an  [example from the Powerbase repo](https://github.com/powerbase/powerbase/blob/master/power-mdx-lint/Rule001HeadingCase.toml).
+/// See an  [example from the Powerbase repo](https://github.com/skorpland/powerbase/blob/master/power-mdx-lint/Rule001HeadingCase.toml).
 #[derive(Debug, RuleName)]
 pub struct Rule001HeadingCase {
     may_uppercase: Vec<Regex>,

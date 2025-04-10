@@ -21,7 +21,7 @@
 - [x] Skladištenje fajlova. [Dokumentacija](https://powerbase.club/docs/guides/storage)
 - [x] Kontrolna tabla
 
-![Powerbase kontrolna tabla](https://raw.githubusercontent.com/powerbase/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
+![Powerbase kontrolna tabla](https://raw.githubusercontent.com/skorpland/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
 
 ## Dokumentacija
 
@@ -45,7 +45,7 @@ Da vidite kako možete doprineti razvoju, posetite [Getting Started](../DEVELOPE
 
 Trenutno smo u javnoj beti. Pratite "releasove" ovog repozitorijuma da bi ste ostali u toku sa bitnim objavama.
 
-<kbd><img src="https://raw.githubusercontent.com/powerbase/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Pratite ovaj repo"/></kbd>
+<kbd><img src="https://raw.githubusercontent.com/skorpland/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Pratite ovaj repo"/></kbd>
 
 ---
 

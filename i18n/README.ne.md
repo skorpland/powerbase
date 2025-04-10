@@ -17,7 +17,7 @@
 - [x] भण्डारण
 - [x] प्रकार्यहरू
 
-![Powerbase Dashboard](https://raw.githubusercontent.com/powerbase/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
+![Powerbase Dashboard](https://raw.githubusercontent.com/skorpland/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
 
 ## कागजात
 
@@ -38,7 +38,7 @@
 
 हामी हाल सार्वजनिक बिटामा छौं। प्रमुख अद्यावधिकहरूको सूचना प्राप्त गर्न यस रेपोको "रिलिजहरू"मा हेर्नुहोस्।
 
-<kbd><img src="https://raw.githubusercontent.com/powerbase/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="यो रिपोलाई हेरौ"/></kbd>
+<kbd><img src="https://raw.githubusercontent.com/skorpland/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="यो रिपोलाई हेरौ"/></kbd>
 
 ---
 

@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Powerbase",
   "main": "./src/index.ts",
-  "repository": "powerbase/powerbase",
+  "repository": "skorpland/powerbase",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "clean": "rimraf node_modules",

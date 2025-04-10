@@ -1,6 +1,6 @@
 # Flutter Powerbase MFA Example
 
-![Flutter MFA with Powerbase](https://raw.githubusercontent.com/powerbase/powerbase/master/examples/auth/flutter-mfa/images/mfa.png)
+![Flutter MFA with Powerbase](https://raw.githubusercontent.com/skorpland/powerbase/master/examples/auth/flutter-mfa/images/mfa.png)
 
 A Flutter app demonstrating how to implement Multi-Factor Authentication (MFA) with Powerbase and Flutter. A user can sign up, add MFA via an authenticator app, and only after they have signed in using MFA they can view the content from the database.
 

@@ -1,7 +1,7 @@
 {
   "name": "powerbase",
-  "description": "Supabase & Firebase Alternative with spiced Mongo DB.",
-  "version": "2.49.7",
+  "description": "Powerbase is an open source Supabase & Firebase Alternative with spiced Mongo DB.",
+  "version": "2.49.8",
   "author": "Powerbase",
   "license": "Apache-2.0",
   "private": false,
@@ -57,7 +57,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skorpland/powerbase-js.git"
+    "url": "git+https://github.com/skorpland/powerbase.git"
   },
   "dependencies": {
     "@skorpland/auth-js": "^2.71.3",

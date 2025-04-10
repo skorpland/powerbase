@@ -185,7 +185,7 @@ Create a new entry in the [`redirects.js`](https://github.com/skorpland/powerbas
 
 ### Federated docs
 
-We support "federating" docs, meaning doc content can come directly from external repos other than [`powerbase/powerbase`](https://github.com/skorpland/powerbase).
+We support "federating" docs, meaning doc content can come directly from external repos other than [`skorpland/powerbase`](https://github.com/skorpland/powerbase).
 
 - It's great for things like client libs who have their own set of docs that we don't want to duplicate on the official Powerbase docs (eg. [`powerbase/vecs`](https://github.com/skorpland/vecs)).
 - No duplication or manual steps required - fetches and generates automatically as part of the docs build pipeline
@@ -210,5 +210,5 @@ If you get stuck somewhere or have any questions, join our [Discord Community Se
 ## Contributors
 
 <a href="https://github.com/skorpland/powerbase/graphs/contributors">
-   <img src="https://contributors.deno.dev/powerbase/powerbase?height=1200&width=1200&count=90" width="1200" height="1200" alt="contributors">
+   <img src="https://contributors.deno.dev/skorpland/powerbase?height=1200&width=1200&count=90" width="1200" height="1200" alt="contributors">
 </a>

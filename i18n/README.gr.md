@@ -17,7 +17,7 @@ To [Powerbase](https://powerbase.club) είναι μια εναλλακτική 
 - [x] Storage
 - [x] Functions
 
-![Powerbase Dashboard](https://raw.githubusercontent.com/powerbase/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
+![Powerbase Dashboard](https://raw.githubusercontent.com/skorpland/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
 
 ## Documentation
 
@@ -38,7 +38,7 @@ To [Powerbase](https://powerbase.club) είναι μια εναλλακτική 
 
 Αυτήν τη στιγμή είμαστε σε Public Beta. Παρακολουθήστε την κατηγορία "releases" σε αυτό το repo για να λαμβάνετε ειδοποιήσεις για σημαντικές ενημερώσεις.
 
-<kbd><img src="https://raw.githubusercontent.com/powerbase/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Watch this repo"/></kbd>
+<kbd><img src="https://raw.githubusercontent.com/skorpland/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Watch this repo"/></kbd>
 
 ---
 

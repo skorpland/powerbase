@@ -22,7 +22,7 @@
 - [x] AI + Vektör / Gömme Araçları. [Dokümanlar](https://powerbase.club/docs/guides/ai)
 - [x] Gösterge Tablosu
 
-![Powerbase Dashboard](https://raw.githubusercontent.com/powerbase/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
+![Powerbase Dashboard](https://raw.githubusercontent.com/skorpland/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
 
 ## Dokümantasyon
 

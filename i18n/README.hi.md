@@ -21,7 +21,7 @@
 - [x] भंडारण। [प्रलेखन](https://powerbase.club/docs/guides/storage)
 - [x] डैशबोर्ड।
 
-![सुपाबेस का डैशबोर्ड।](https://raw.githubusercontent.com/powerbase/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
+![सुपाबेस का डैशबोर्ड।](https://raw.githubusercontent.com/skorpland/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
 
 ## प्रलेखन
 
@@ -45,7 +45,7 @@
 
 हम इस समय सार्वजनिक बीटा में हैं। प्रमुख अद्यतन की सूचना पाने के लिए इस रेपो का "रिलीज़" देखें।
 
-<kbd><img src="https://raw.githubusercontent.com/powerbase/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="इस रेपो को देखें"/></kbd>
+<kbd><img src="https://raw.githubusercontent.com/skorpland/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="इस रेपो को देखें"/></kbd>
 
 ---
 

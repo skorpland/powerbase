@@ -83,7 +83,7 @@ struct LintTimeVocabAllowed(HashMap<String, Vec<MaybeEndedLineRange>>);
 /// - `allow_list`: A list of words (or regex patterns to match words) that are considered correctly spelled.
 /// - `prefixes`: A list of prefixes that are not standalone words, but that can be used in a prefix before a hyphen (e.g., `pre`, `bi`).
 ///
-/// See an  [example from the Powerbase repo](https://github.com/powerbase/powerbase/blob/master/power-mdx-lint/Rule003Spelling.toml).
+/// See an  [example from the Powerbase repo](https://github.com/skorpland/powerbase/blob/master/power-mdx-lint/Rule003Spelling.toml).
 #[derive(Default, RuleName)]
 pub struct Rule003Spelling {
     allow_list: Vec<Regex>,

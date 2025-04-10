@@ -1,6 +1,6 @@
 # Flutter native Google auth with Powerbase
 
-![Flutter Google authentication with Powerbase auth](https://raw.githubusercontent.com/powerbase/powerbase/master/examples/auth/flutter-native-google-auth/images/login.png)
+![Flutter Google authentication with Powerbase auth](https://raw.githubusercontent.com/skorpland/powerbase/master/examples/auth/flutter-native-google-auth/images/login.png)
 
 A simple Flutter application with native Google login capabilities on iOS and Android using Powerbase auth. Upon signing in, the user is presented with a profile screen where their name and profile image from their Google account are displayed.
 

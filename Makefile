@@ -8,7 +8,7 @@ help:
 	@echo "make github.traction			# get a history of stargazers for our individual repos"
 
 github.contributors.%:
-	curl -sS https://api.github.com/repos/powerbase/$*/contributors \
+	curl -sS https://api.github.com/repos/skorpland/$*/contributors \
 	| jq -r 'map_values({ username: .login }) \
 	| unique \
 	| sort_by(.username)' \
@@ -23,7 +23,7 @@ github.contributors: \
 	github.contributors.powerbase-dart
 
 github.issues:
-	curl -sS https://api.github.com/repos/powerbase/powerbase/issues \
+	curl -sS https://api.github.com/repos/skorpland/powerbase/issues \
 	| jq -r 'map_values({username: .user.login, avatar_url: .user.avatar_url}) \
 	| unique \
 	| sort_by(.username)' \
@@ -37,7 +37,7 @@ github.repos: \
 	github.repos.postgres-meta
 
 github.repos.%:
-	curl -sS https://api.github.com/repos/powerbase/$* \
+	curl -sS https://api.github.com/repos/skorpland/$* \
 	> $(REPO_DIR)/web/src/data/repos/$*.json
 
 github.traction:

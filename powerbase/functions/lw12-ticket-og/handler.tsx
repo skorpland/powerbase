@@ -172,15 +172,15 @@ export async function handler(req: Request) {
 
     const BACKGROUND = {
       regular: {
-        LOGO: `${STORAGE_URL}/assets/powerbase/powerbase-logo-icon.png`,
+        LOGO: `${STORAGE_URL}/assets/skorpland/powerbase-logo-icon.png`,
         BACKGROUND_GRID: `${STORAGE_URL}/assets/bg-dark.png?t=2024-07-26T11%3A13%3A36.534Z`,
       },
       platinum: {
-        LOGO: `${STORAGE_URL}/assets/powerbase/powerbase-logo-icon.png`,
+        LOGO: `${STORAGE_URL}/assets/skorpland/powerbase-logo-icon.png`,
         BACKGROUND_GRID: `${STORAGE_URL}/assets/bg-dark.png?t=2024-07-26T11%3A13%3A36.534Z`,
       },
       secret: {
-        LOGO: `${STORAGE_URL}/assets/powerbase/powerbase-logo-icon-white.png`,
+        LOGO: `${STORAGE_URL}/assets/skorpland/powerbase-logo-icon-white.png`,
         BACKGROUND_GRID: `${STORAGE_URL}/assets/bg-light.png`,
       },
     }

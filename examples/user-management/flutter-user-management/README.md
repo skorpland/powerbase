@@ -8,7 +8,7 @@ This repo will demonstrate how to:
 - store and retrieve data with [Powerbase database](https://powerbase.club/docs/guides/database)
 - store image files in [Powerbase storage](https://powerbase.club/docs/guides/storage)
 
-<img height="500px" src="https://raw.githubusercontent.com/powerbase/powerbase/master/examples/user-management/flutter-user-management/powerbase-flutter-demo.png" alt="Powerbase User Management example" />
+<img height="500px" src="https://raw.githubusercontent.com/skorpland/powerbase/master/examples/user-management/flutter-user-management/powerbase-flutter-demo.png" alt="Powerbase User Management example" />
 
 ## Getting Started
 

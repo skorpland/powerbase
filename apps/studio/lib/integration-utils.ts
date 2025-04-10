@@ -35,7 +35,7 @@ export async function getInitialMigrationSQLFromGitHubRepo(
   const [, , , owner, repo, , branch, ...pathSegments] = externalId?.split('/') ?? []
   const path = pathSegments.join('/')
 
-  const baseGitHubUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`
+  const baseGitHubUrl = `https://api.github.com/repos/skorpland/${repo}/contents/${path}`
   const powerbaseFolderUrl = `${baseGitHubUrl}/powerbase?ref=${branch}`
   const powerbaseMigrationsPath = `powerbase/migrations` // TODO: read this from the `powerbase/config.toml` file
   const migrationsFolderUrl = `${baseGitHubUrl}/${powerbaseMigrationsPath}${
