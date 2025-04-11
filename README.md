@@ -1,26 +1,43 @@
  
 # Powerbase
 
-[Powerbase](https://powerbase.club) is an open source Firebase alternative. We're building the features of Firebase using enterprise-grade open source tools.
+[Powerbase](https://powerbase.club) is an open-source Firebase alternative built for developers who prefer full control using battle-tested, enterprise-grade open tools. Built on Supabase framework, it follows Supabase like working and yet being super light wight and efficient.
 
-- [x] Hosted Postgres Database. [Docs](https://powerbase.club/docs/guides/database)
-- [x] Authentication and Authorization. [Docs](https://powerbase.club/docs/guides/auth)
-- [x] Auto-generated APIs.
-  - [x] REST. [Docs](https://powerbase.club/docs/guides/api)
-  - [x] GraphQL. [Docs](https://powerbase.club/docs/guides/graphql)
-  - [x] Realtime subscriptions. [Docs](https://powerbase.club/docs/guides/realtime)
-- [x] Functions.
-  - [x] Database Functions. [Docs](https://powerbase.club/docs/guides/database/functions)
-  - [x] Edge Functions [Docs](https://powerbase.club/docs/guides/functions)
-- [x] File Storage. [Docs](https://powerbase.club/docs/guides/storage)
-- [x] AI + Vector/Embeddings Toolkit. [Docs](https://powerbase.club/docs/guides/ai)
-- [x] Dashboard
+- [x] **Hosted PostgreSQL**  
+      Fully managed database, ready to go.  
+      📚 [Docs](https://powerbase.club/docs/guides/database)
 
-![Powerbase Dashboard](https://raw.githubusercontent.com/skorpland/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
+- [x] **Authentication & Authorization**  
+      Simple, secure user auth and role-based access control.  
+      📚 [Docs](https://powerbase.club/docs/guides/auth)
 
-Watch "releases" of this repo to get notified of major updates.
+- [x] **Auto-Generated APIs**  
+  - [x] **REST API** — Instantly generated for your schema  
+        📚 [Docs](https://powerbase.club/docs/guides/api)  
+  - [x] **GraphQL API** — Flexible querying, real-time ready  
+        📚 [Docs](https://powerbase.club/docs/guides/graphql)  
+  - [x] **Realtime Subscriptions** — WebSocket-based live updates  
+        📚 [Docs](https://powerbase.club/docs/guides/realtime)
 
-<kbd><img src="https://raw.githubusercontent.com/skorpland/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Watch this repo"/></kbd>
+- [x] **Functions**  
+  - [x] **Database Functions** — Trigger logic on data events  
+        📚 [Docs](https://powerbase.club/docs/guides/database/functions)  
+  - [x] **Edge Functions** — Deploy custom code at the edge  
+        📚 [Docs](https://powerbase.club/docs/guides/functions)
+
+- [x] **File Storage**  
+      Secure, scalable storage for user uploads and assets.  
+      📚 [Docs](https://powerbase.club/docs/guides/storage)
+
+- [x] **AI & Vector Toolkit**  
+      Build semantic search and AI-powered apps with embeddings.  
+      📚 [Docs](https://powerbase.club/docs/guides/ai)
+
+- [x] **Developer Dashboard**  
+      Clean, modern UI to manage everything in one place.
+
+
+ 
 
 ## Documentation
 
@@ -75,18 +92,7 @@ Our approach for client libraries is modular. Each sub-library is a standalone i
     <th><a href="https://github.com/skorpland/storage-api" target="_blank" rel="noopener noreferrer">Storage</a></th>
     <th>Functions</th>
   </tr>
-  <!-- TEMPLATE FOR NEW ROW -->
-  <!-- START ROW
-  <tr>
-    <td>lang</td>
-    <td><a href="https://github.com/skorpland/powerbase-lang" target="_blank" rel="noopener noreferrer">powerbase-lang</a></td>
-    <td><a href="https://github.com/skorpland/postgrest-lang" target="_blank" rel="noopener noreferrer">postgrest-lang</a></td>
-    <td><a href="https://github.com/skorpland/gotrue-lang" target="_blank" rel="noopener noreferrer">gotrue-lang</a></td>
-    <td><a href="https://github.com/skorpland/realtime-lang" target="_blank" rel="noopener noreferrer">realtime-lang</a></td>
-    <td><a href="https://github.com/skorpland/storage-lang" target="_blank" rel="noopener noreferrer">storage-lang</a></td>
-  </tr>
-  END ROW -->
-  <!-- /notranslate -->
+ 
   <th colspan="7">⚡️ Official ⚡️</th>
   <!-- notranslate -->
   <tr>
@@ -248,3 +254,5 @@ Our approach for client libraries is modular. Each sub-library is a standalone i
 - [Ukrainian / Українська](/i18n/README.uk.md)
 - [Vietnamese / Tiếng Việt](/i18n/README.vi-vn.md)
 - [List of translations](/i18n/languages.md) <!--- Keep only this -->
+
+Disclaimer: Powerbase is based on the popular Supabase framework with an approach to keep it lightweight(just 35MB) and practically usable for self hosted projects.
