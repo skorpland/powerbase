@@ -1,7 +1,15 @@
  
 # Powerbase
 
-[Powerbase](https://powerbase.club) is an open-source Firebase alternative built for developers who prefer full control using battle-tested, enterprise-grade open tools. Built on Supabase framework, it follows Supabase like working and yet being super light weight and efficient.
+[Powerbase](https://powerbase.club) is your open-source Firebase and Supabase alternative.
+
+Designed for modern developers. Built for scale.
+
+🌐 Web, mobile, and backend-ready out of the box.
+
+No lock-in. No black box. Full transparency.
+
+---
 
 - [x] **Hosted PostgreSQL**  
       Fully managed database, ready to go.  
