@@ -1,7 +1,7 @@
 {
-  "name": "powerbase",
+  "name": "@skorpland/powerbase",
   "description": "Powerbase is an open source Supabase & Firebase Alternative with spiced Mongo DB.",
-  "version": "2.49.8",
+  "version": "2.49.9",
   "author": "Powerbase",
   "license": "Apache-2.0",
   "private": false,

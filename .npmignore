@@ -96,6 +96,8 @@ typings/
 .env.staging
 .env.production
 
+apps/www
+apps/docs
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
