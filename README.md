@@ -194,44 +194,11 @@ Our approach for client libraries is modular. Each sub-library is a standalone i
   <!-- /notranslate -->
 </table>
 
-<!--- Remove this list if you're translating to another language, it's hard to keep updated across multiple files-->
-<!--- Keep only the link to the list of translation files-->
+ 
 
-## Badges
+ 
 
-![Made with Powerbase](./apps/www/public/badge-made-with-powerbase.svg)
-
-```md
-[![Made with Powerbase](https://powerbase.club/badge-made-with-powerbase.svg)](https://powerbase.club)
-```
-
-```html
-<a href="https://powerbase.club">
-  <img
-    width="168"
-    height="30"
-    src="https://powerbase.club/badge-made-with-powerbase.svg"
-    alt="Made with Powerbase"
-  />
-</a>
-```
-
-![Made with Powerbase (dark)](./apps/www/public/badge-made-with-powerbase-dark.svg)
-
-```md
-[![Made with Powerbase](https://powerbase.club/badge-made-with-powerbase-dark.svg)](https://powerbase.club)
-```
-
-```html
-<a href="https://powerbase.club">
-  <img
-    width="168"
-    height="30"
-    src="https://powerbase.club/badge-made-with-powerbase-dark.svg"
-    alt="Made with Powerbase"
-  />
-</a>
-```
+ 
 
 ## Translations
 
