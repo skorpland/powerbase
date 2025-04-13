@@ -13,7 +13,7 @@
   "dependencies": {
     "@hookform/resolvers": "^3.1.1",
     "@monaco-editor/react": "^4.6.0",
-    "@skorpland/sql-to-rest": "^0.1.9",
+    "@skorpland/sql-to-rest": "^0.1.7",
     "class-variance-authority": "^0.6.0",
     "clsx": "^1.2.1",
     "cmdk": "^1.0.0",

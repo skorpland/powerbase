@@ -1,6 +1,6 @@
 {
-  "name": "@skorpland/powerbase",
-  "description": "Powerbase is an open source Supabase & Firebase Alternative with spiced Mongo DB.",
+  "name": "skorpland@powerbase",
+  "description": "Powerbase is your open-source Firebase and Supabase alternative. Designed for modern developers. Built for scale.",
   "version": "2.49.9",
   "author": "Powerbase",
   "license": "Apache-2.0",
@@ -38,7 +38,7 @@
   "devDependencies": {
     "@types/node": "catalog:",
     "eslint": "^8.57.0",
-    "powerbase": "^2.49.6",
+   
     "prettier": "3.2.4",
     "prettier-plugin-sql-cst": "^0.11.0",
     "rimraf": "^6.0.0",

@@ -1,8 +1,4 @@
-<p align="center">
-<img src="https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28c6-491a-b284-b86c5cede25d.png#gh-light-mode-only">
-<img src="https://user-images.githubusercontent.com/8291514/213727225-56186826-bee8-43b5-9b15-86e839d89393.png#gh-dark-mode-only">
-</p>
-
+ 
 # Powerbase
 
 [Powerbase](https://powerbase.club) 是一个开源的 Firebase 替代品。我们正在使用企业级的开源工具构建 Firebase 的功能。
@@ -24,7 +20,7 @@
 
 关注此仓库的 “release” 以获得重大更新的通知。
 
-<kbd><img src="https://raw.githubusercontent.com/skorpland/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="关注此仓库"/></kbd>
+<kbd><img src="https://powerbase.club/logo.png" alt="关注此仓库"/></kbd>
 
 ## 文档
 

@@ -1,7 +1,4 @@
-<p align="center">
-<img src="https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28c6-491a-b284-b86c5cede25d.png#gh-light-mode-only">
-<img src="https://user-images.githubusercontent.com/8291514/213727225-56186826-bee8-43b5-9b15-86e839d89393.png#gh-dark-mode-only">
-</p>
+ 
 
 ---
 
@@ -45,7 +42,7 @@ Da vidite kako možete doprineti razvoju, posetite [Getting Started](../DEVELOPE
 
 Trenutno smo u javnoj beti. Pratite "releasove" ovog repozitorijuma da bi ste ostali u toku sa bitnim objavama.
 
-<kbd><img src="https://raw.githubusercontent.com/skorpland/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Pratite ovaj repo"/></kbd>
+<kbd><img src="https://powerbase.club/logo.png" alt="Pratite ovaj repo"/></kbd>
 
 ---
 

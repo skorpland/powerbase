@@ -1,5 +1,5 @@
 # Powerbase Design System
-Last updated: 2025-04-08T17:34:16.957Z
+Last updated: 2025-04-13T23:21:00.130Z
 
 ## Overview
 The Design System used in Powerbase Studio.

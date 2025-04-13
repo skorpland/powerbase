@@ -8,16 +8,8 @@
       "type": "registry:block",
       "title": "Password Based Auth flow for Nextjs and Powerbase",
       "description": "Password Based Auth flow for Nextjs and Powerbase",
-      "registryDependencies": [
-        "button",
-        "card",
-        "input",
-        "label"
-      ],
-      "dependencies": [
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["button", "card", "input", "label"],
+      "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/password-based-auth-nextjs/app/auth/login/page.tsx",
@@ -103,12 +95,7 @@
       "type": "registry:block",
       "title": "Password Based Auth flow for React and Powerbase",
       "description": "Password Based Auth flow for React and Powerbase",
-      "registryDependencies": [
-        "button",
-        "card",
-        "input",
-        "label"
-      ],
+      "registryDependencies": ["button", "card", "input", "label"],
       "files": [
         {
           "path": "registry/default/blocks/password-based-auth-react/components/login-form.tsx",
@@ -131,21 +118,14 @@
           "type": "registry:lib"
         }
       ],
-      "dependencies": [
-        "@skorpland/powerbase-js@latest"
-      ]
+      "dependencies": ["@skorpland/powerbase-js@latest"]
     },
     {
       "name": "password-based-auth-react-router",
       "type": "registry:block",
       "title": "Password Based Auth flow for React Router and Powerbase",
       "description": "Password Based Auth flow for React Router and Powerbase",
-      "registryDependencies": [
-        "button",
-        "card",
-        "input",
-        "label"
-      ],
+      "registryDependencies": ["button", "card", "input", "label"],
       "dependencies": [
         "@skorpland/ssr@latest",
         "@react-router/dev@latest",
@@ -213,16 +193,8 @@
       "type": "registry:block",
       "title": "Password Based Auth flow for tanstack and Powerbase",
       "description": "Password Based Auth flow for tanstack and Powerbase",
-      "registryDependencies": [
-        "button",
-        "card",
-        "input",
-        "label"
-      ],
-      "dependencies": [
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["button", "card", "input", "label"],
+      "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/password-based-auth-tanstack/routes/login.tsx",
@@ -305,9 +277,7 @@
       "type": "registry:component",
       "title": "Dropzone (File Upload)",
       "description": "Displays a control for easier uploading of files directly to Powerbase Storage.",
-      "registryDependencies": [
-        "button"
-      ],
+      "registryDependencies": ["button"],
       "dependencies": [
         "react-dropzone",
         "lucide-react",
@@ -343,14 +313,8 @@
       "type": "registry:component",
       "title": "Dropzone (File Upload)",
       "description": "Displays a control for easier uploading of files directly to Powerbase Storage.",
-      "registryDependencies": [
-        "button"
-      ],
-      "dependencies": [
-        "react-dropzone",
-        "lucide-react",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["button"],
+      "dependencies": ["react-dropzone", "lucide-react", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/dropzone/components/dropzone.tsx",
@@ -372,9 +336,7 @@
       "type": "registry:component",
       "title": "Dropzone (File Upload)",
       "description": "Displays a control for easier uploading of files directly to Powerbase Storage.",
-      "registryDependencies": [
-        "button"
-      ],
+      "registryDependencies": ["button"],
       "dependencies": [
         "react-dropzone",
         "lucide-react",
@@ -406,9 +368,7 @@
       "type": "registry:component",
       "title": "Dropzone (File Upload)",
       "description": "Displays a control for easier uploading of files directly to Powerbase Storage.",
-      "registryDependencies": [
-        "button"
-      ],
+      "registryDependencies": ["button"],
       "dependencies": [
         "react-dropzone",
         "lucide-react",
@@ -441,11 +401,7 @@
       "title": "Realtime Cursor",
       "description": "Component which renders realtime cursors from other users in a room.",
       "registryDependencies": [],
-      "dependencies": [
-        "lucide-react",
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "dependencies": ["lucide-react", "@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-cursor/components/cursor.tsx",
@@ -480,10 +436,7 @@
       "title": "Realtime Cursor",
       "description": "Component which renders realtime cursors from other users in a room.",
       "registryDependencies": [],
-      "dependencies": [
-        "lucide-react",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "dependencies": ["lucide-react", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-cursor/components/cursor.tsx",
@@ -510,11 +463,7 @@
       "title": "Realtime Cursor",
       "description": "Component which renders realtime cursors from other users in a room.",
       "registryDependencies": [],
-      "dependencies": [
-        "lucide-react",
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "dependencies": ["lucide-react", "@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-cursor/components/cursor.tsx",
@@ -545,11 +494,7 @@
       "title": "Realtime Cursor",
       "description": "Component which renders realtime cursors from other users in a room.",
       "registryDependencies": [],
-      "dependencies": [
-        "lucide-react",
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "dependencies": ["lucide-react", "@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-cursor/components/cursor.tsx",
@@ -579,13 +524,8 @@
       "type": "registry:component",
       "title": "Current User Avatar",
       "description": "Component which renders the current user's avatar.",
-      "registryDependencies": [
-        "avatar"
-      ],
-      "dependencies": [
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["avatar"],
+      "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/current-user-avatar/components/current-user-avatar.tsx",
@@ -619,12 +559,8 @@
       "type": "registry:component",
       "title": "Current User Avatar",
       "description": "Component which renders the current user's avatar.",
-      "registryDependencies": [
-        "avatar"
-      ],
-      "dependencies": [
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["avatar"],
+      "dependencies": ["@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/current-user-avatar/components/current-user-avatar.tsx",
@@ -650,13 +586,8 @@
       "type": "registry:component",
       "title": "Current User Avatar",
       "description": "Component which renders the current user's avatar.",
-      "registryDependencies": [
-        "avatar"
-      ],
-      "dependencies": [
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["avatar"],
+      "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/current-user-avatar/components/current-user-avatar.tsx",
@@ -686,13 +617,8 @@
       "type": "registry:component",
       "title": "Current User Avatar",
       "description": "Component which renders the current user's avatar.",
-      "registryDependencies": [
-        "avatar"
-      ],
-      "dependencies": [
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["avatar"],
+      "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/current-user-avatar/components/current-user-avatar.tsx",
@@ -722,14 +648,8 @@
       "type": "registry:component",
       "title": "Avatar Stack with Realtime Presence",
       "description": "Component which stack of avatars, tracked by realtime presence.",
-      "registryDependencies": [
-        "avatar",
-        "tooltip"
-      ],
-      "dependencies": [
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["avatar", "tooltip"],
+      "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-avatar-stack/components/avatar-stack.tsx",
@@ -771,13 +691,8 @@
       "type": "registry:component",
       "title": "Avatar Stack with Realtime Presence",
       "description": "Component which stack of avatars, tracked by realtime presence.",
-      "registryDependencies": [
-        "avatar",
-        "tooltip"
-      ],
-      "dependencies": [
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["avatar", "tooltip"],
+      "dependencies": ["@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-avatar-stack/components/avatar-stack.tsx",
@@ -811,14 +726,8 @@
       "type": "registry:component",
       "title": "Avatar Stack with Realtime Presence",
       "description": "Component which stack of avatars, tracked by realtime presence.",
-      "registryDependencies": [
-        "avatar",
-        "tooltip"
-      ],
-      "dependencies": [
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["avatar", "tooltip"],
+      "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-avatar-stack/components/avatar-stack.tsx",
@@ -856,14 +765,8 @@
       "type": "registry:component",
       "title": "Avatar Stack with Realtime Presence",
       "description": "Component which stack of avatars, tracked by realtime presence.",
-      "registryDependencies": [
-        "avatar",
-        "tooltip"
-      ],
-      "dependencies": [
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["avatar", "tooltip"],
+      "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-avatar-stack/components/avatar-stack.tsx",
@@ -901,15 +804,8 @@
       "type": "registry:component",
       "title": "Realtime Chat",
       "description": "Component which renders realtime chat messages from other users in a room.",
-      "registryDependencies": [
-        "input",
-        "button"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["input", "button"],
+      "dependencies": ["lucide-react", "@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-chat/components/chat-message.tsx",
@@ -947,14 +843,8 @@
       "type": "registry:component",
       "title": "Realtime Chat",
       "description": "Component which renders realtime chat messages from other users in a room.",
-      "registryDependencies": [
-        "input",
-        "button"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["input", "button"],
+      "dependencies": ["lucide-react", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-chat/components/chat-message.tsx",
@@ -984,15 +874,8 @@
       "type": "registry:component",
       "title": "Realtime Chat",
       "description": "Component which renders realtime chat messages from other users in a room.",
-      "registryDependencies": [
-        "input",
-        "button"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["input", "button"],
+      "dependencies": ["lucide-react", "@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-chat/components/chat-message.tsx",
@@ -1026,15 +909,8 @@
       "type": "registry:component",
       "title": "Realtime Chat",
       "description": "Component which renders realtime chat messages from other users in a room.",
-      "registryDependencies": [
-        "input",
-        "button"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "registryDependencies": ["input", "button"],
+      "dependencies": ["lucide-react", "@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "files": [
         {
           "path": "registry/default/blocks/realtime-chat/components/chat-message.tsx",
@@ -1069,10 +945,7 @@
       "title": "Powerbase Client for Next.js",
       "description": "",
       "registryDependencies": [],
-      "dependencies": [
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "docs": "You'll need to add a `.env` file with the following environment variables to your project: `NEXT_PUBLIC_POWERBASE_URL` and `NEXT_PUBLIC_POWERBASE_ANON_KEY`.",
       "files": [
         {
@@ -1096,9 +969,7 @@
       "title": "Powerbase Client for React",
       "description": "",
       "registryDependencies": [],
-      "dependencies": [
-        "@skorpland/powerbase-js@latest"
-      ],
+      "dependencies": ["@skorpland/powerbase-js@latest"],
       "docs": "You'll need to add a `.env` file with the following environment variables to your project: `VITE_POWERBASE_URL` and `VITE_POWERBASE_ANON_KEY`.",
       "files": [
         {
@@ -1114,10 +985,7 @@
       "title": "Powerbase Client for React Router",
       "description": "",
       "registryDependencies": [],
-      "dependencies": [
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "docs": "You'll need to add a `.env` file with the following environment variables to your project: `VITE_POWERBASE_URL` and `VITE_POWERBASE_ANON_KEY`.",
       "files": [
         {
@@ -1137,10 +1005,7 @@
       "title": "Powerbase Client for TanStack Start",
       "description": "",
       "registryDependencies": [],
-      "dependencies": [
-        "@skorpland/ssr@latest",
-        "@skorpland/powerbase-js@latest"
-      ],
+      "dependencies": ["@skorpland/ssr@latest", "@skorpland/powerbase-js@latest"],
       "docs": "You'll need to add a `.env` file with the following environment variables to your project: `VITE_POWERBASE_URL` and `VITE_POWERBASE_ANON_KEY`.",
       "files": [
         {

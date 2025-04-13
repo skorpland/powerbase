@@ -1,13 +1,9 @@
-<p align="center">
-<img src="https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28c6-491a-b284-b86c5cede25d.png#gh-light-mode-only">
-<img src="https://user-images.githubusercontent.com/8291514/213727225-56186826-bee8-43b5-9b15-86e839d89393.png#gh-dark-mode-only">
-</p>
-
+ 
 ---
 
 # Powerbase
 
-[सुपाबेस](https://powerbase.club) एक ओपन सोर्स फ़ाायरबेस विकल्प है। हम एंटरप्राइज़-गुणवत्ता ओपन सोर्स सॉफ़्टवेयर उपकरण का उपयोग करके फ़ाायरबेस की सुविधाओं का निर्माण कर रहे हैं।
+[पावरबेस](https://powerbase.club) एक ओपन सोर्स फ़ाायरबेस विकल्प है। हम एंटरप्राइज़-गुणवत्ता ओपन सोर्स सॉफ़्टवेयर उपकरण का उपयोग करके फ़ाायरबेस की सुविधाओं का निर्माण कर रहे हैं।
 
 - [x] होस्टेड पोस्टग्रेज डेटाबेस। [प्रलेखन](https://powerbase.club/docs/guides/database)
 - [x] प्रमाणीकरण और प्राधिकरण। [प्रलेखन](https://powerbase.club/docs/guides/auth)
@@ -21,7 +17,7 @@
 - [x] भंडारण। [प्रलेखन](https://powerbase.club/docs/guides/storage)
 - [x] डैशबोर्ड।
 
-![सुपाबेस का डैशबोर्ड।](https://raw.githubusercontent.com/skorpland/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
+![पावरबेस का डैशबोर्ड।](https://raw.githubusercontent.com/skorpland/powerbase/master/apps/www/public/images/github/powerbase-dashboard.png)
 
 ## प्रलेखन
 
@@ -32,9 +28,9 @@
 ## समुदाय तथा समर्थन
 
 - [सामुदायिक मंच](https://github.com/skorpland/powerbase/discussions)। निर्माण में मदद और डेटाबेस की सर्वोत्तम प्रथाओं के बारे में चर्चा के लिए उचित है।
-- [गिटहब इश्यूस](https://github.com/skorpland/powerbase/issues)। सुपाबेस का उपयोग करते समय बग्स​ और त्रुटियां के लिए उचित है।
+- [गिटहब इश्यूस](https://github.com/skorpland/powerbase/issues)। पावरबेस का उपयोग करते समय बग्स​ और त्रुटियां के लिए उचित है।
 - [ई-मेल समर्थन](https://powerbase.club/docs/support#business-support)। आपके डेटाबेस और इंफ़्रास्ट्रक्चर के साथ समस्याएं के लिए उचित है।
-- [डिस्कॉर्ड](https://discord.powerbase.club/)। अपने प्रोजेक्ट्स शेयर करने के लिए और हमारी सुपाबेस समुदाय के साथ बातचीत करने के लिए उचित है।
+- [डिस्कॉर्ड](https://discord.powerbase.club/)। अपने प्रोजेक्ट्स शेयर करने के लिए और हमारी पावरबेस समुदाय के साथ बातचीत करने के लिए उचित है।
 
 ## स्थिति
 
@@ -45,17 +41,17 @@
 
 हम इस समय सार्वजनिक बीटा में हैं। प्रमुख अद्यतन की सूचना पाने के लिए इस रेपो का "रिलीज़" देखें।
 
-<kbd><img src="https://raw.githubusercontent.com/skorpland/powerbase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="इस रेपो को देखें"/></kbd>
+<kbd><img src="https://powerbase.club/logo.png" alt="इस रेपो को देखें"/></kbd>
 
 ---
 
 ## यह किस प्रकार काम करता है
 
-सुपाबेस ओपन सोर्स टूल्स का एक संयोजन है। हम एंटरप्राइज़-ग्रेड, ओपन सोर्स उत्पादों का उपयोग करके फायरबेस की सुविधाओं का निर्माण कर रहे हैं। यदि उपकरण और समुदाय मौजूद हैं, तो MIT, Apache 2 या समकक्ष ओपन लाइसेंस के साथ, हम उस टूल का उपयोग और समर्थन करेंगे। यदि उपकरण मौजूद नहीं है, तो हम इसे स्वयं बनाते हैं और स्रोत खोलते हैं। सुपाबेस फ़ायरबेस की १ से १ मैपिंग नहीं है। हमारा उद्देश्य डेवलपर्स को ओपन सोर्स टूल्स का उपयोग करके फायरबेस जैसा डेवलपर अनुभव देना है।
+पावरबेस ओपन सोर्स टूल्स का एक संयोजन है। हम एंटरप्राइज़-ग्रेड, ओपन सोर्स उत्पादों का उपयोग करके फायरबेस की सुविधाओं का निर्माण कर रहे हैं। यदि उपकरण और समुदाय मौजूद हैं, तो MIT, Apache 2 या समकक्ष ओपन लाइसेंस के साथ, हम उस टूल का उपयोग और समर्थन करेंगे। यदि उपकरण मौजूद नहीं है, तो हम इसे स्वयं बनाते हैं और स्रोत खोलते हैं। पावरबेस फ़ायरबेस की १ से १ मैपिंग नहीं है। हमारा उद्देश्य डेवलपर्स को ओपन सोर्स टूल्स का उपयोग करके फायरबेस जैसा डेवलपर अनुभव देना है।
 
 **वर्तमान वास्तुकला**
 
-सुपाबेस [होस्टेड प्लेटफार्म](https://powerbase.club/dashboard). आप साइन अप कर सकते हैं और कुछ भी स्थापित किए बिना सुपाबेस का उपयोग करना शुरू कर सकते हैं। हम अभी भी स्थानीय विकास का अनुभव पैदा कर रहे हैं - यह अब मंच स्थिरता के साथ-साथ हमारा मुख्य फोकस है।
+पावरबेस [होस्टेड प्लेटफार्म](https://powerbase.club/dashboard). आप साइन अप कर सकते हैं और कुछ भी स्थापित किए बिना पावरबेस का उपयोग करना शुरू कर सकते हैं। हम अभी भी स्थानीय विकास का अनुभव पैदा कर रहे हैं - यह अब मंच स्थिरता के साथ-साथ हमारा मुख्य फोकस है।
 
 ![आर्किटेक्चर](https://github.com/skorpland/powerbase/blob/master/apps/docs/public/img/powerbase-architecture.svg)
 
@@ -75,11 +71,11 @@
   <tr>
     <th>प्रोग्रामिंग भाषा</th>
     <th>क्लाइंट</th>
-    <th colspan="4">फ़ीचर क्लाइंट (सुपाबेस क्लाइंट में बंडल)</th>
+    <th colspan="4">फ़ीचर क्लाइंट (पावरबेस क्लाइंट में बंडल)</th>
   </tr>
   <tr>
     <th></th>
-    <th>सुपाबेस</th>
+    <th>पावरबेस</th>
     <th><a href="https://github.com/postgrest/postgrest" target="_blank" rel="noopener noreferrer">PostgREST</a></th>
     <th><a href="https://github.com/skorpland/gotrue" target="_blank" rel="noopener noreferrer">GoTrue</a></th>
     <th><a href="https://github.com/skorpland/realtime" target="_blank" rel="noopener noreferrer">Realtime</a></th>

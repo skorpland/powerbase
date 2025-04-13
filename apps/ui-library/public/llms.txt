@@ -1,5 +1,5 @@
 # Powerbase UI Library
-Last updated: 2025-04-08T17:34:13.280Z
+Last updated: 2025-04-13T23:21:20.546Z
 
 ## Overview
 Library of components for your project. The components integrate with Powerbase and are shadcn compatible.

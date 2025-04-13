@@ -1,5 +1,5 @@
  
-# Powerbase
+# Powerbase(Beta...Release cooking up yet)
 
 [Powerbase](https://powerbase.club) is your open-source Firebase and Supabase alternative.
 
