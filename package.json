@@ -1,7 +1,7 @@
 {
   "name": "skorpland@powerbase",
   "description": "Powerbase is your open-source Firebase and Supabase alternative. Designed for modern developers. Built for scale.",
-  "version": "2.49.9",
+  "version": "2.50.0",
   "author": "Powerbase",
   "license": "Apache-2.0",
   "private": false,
