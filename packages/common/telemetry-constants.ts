@@ -13,7 +13,7 @@
  * Triggered when a user signs up. When signing up with Email and Password, this is only triggered once user confirms their email.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /sign-up
  */
 export interface SignUpEvent {
@@ -30,7 +30,7 @@ export interface SignUpEvent {
  *   - If signing up with GitHub the SignInEvent gets triggered first before the SignUpEvent.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /sign-in-mfa
  */
 export interface SignInEvent {
@@ -48,7 +48,7 @@ export interface SignInEvent {
  * User copied the database connection string.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  */
 export interface ConnectionStringCopiedEvent {
   action: 'connection_string_copied'
@@ -76,7 +76,7 @@ export interface ConnectionStringCopiedEvent {
  * Cron job created.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/integrations/cron/jobs?dialog-shown=true
  */
 export interface CronJobCreatedEvent {
@@ -101,7 +101,7 @@ export interface CronJobCreatedEvent {
  * Cron job updated.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/integrations/cron/jobs?dialog-shown=true
  */
 export interface CronJobUpdatedEvent {
@@ -126,7 +126,7 @@ export interface CronJobUpdatedEvent {
  * Cron job deleted.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/integrations/cron/jobs
  */
 export interface CronJobDeletedEvent {
@@ -141,7 +141,7 @@ export interface CronJobDeletedEvent {
  * Create job button clicked that opens the dialog.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/integrations/cron/jobs
  */
 export interface CronJobCreateClickedEvent {
@@ -156,7 +156,7 @@ export interface CronJobCreateClickedEvent {
  * Edit cron job button (hidden in the dropdown) clicked that opens the dialog.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/integrations/cron/jobs
  */
 export interface CronJobUpdateClickedEvent {
@@ -171,7 +171,7 @@ export interface CronJobUpdateClickedEvent {
  * Delete cron job button (hidden in the dropdown) clicked that opens the deletion confirmation modal.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/integrations/cron/jobs
  */
 export interface CronJobDeleteClickedEvent {
@@ -186,7 +186,7 @@ export interface CronJobDeleteClickedEvent {
  * User clicked the history button to see previous runs of the cron job
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/integrations/cron/jobs
  */
 export interface CronJobHistoryClickedEvent {
@@ -203,7 +203,7 @@ export interface CronJobHistoryClickedEvent {
  * The FeaturePreviewModal can be opened clicking at the profile icon at the bottom left corner of the project sidebar.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  */
 export interface FeaturePreviewsClickedEvent {
   action: 'feature_previews_clicked'
@@ -219,7 +219,7 @@ export interface FeaturePreviewsClickedEvent {
  * The FeaturePreviewModal can be opened clicking at the profile icon at the bottom left corner of the project sidebar.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  */
 export interface FeaturePreviewEnabledEvent {
   action: 'feature_preview_enabled'
@@ -241,7 +241,7 @@ export interface FeaturePreviewEnabledEvent {
  * The FeaturePreviewModal can be opened clicking at the profile icon at the bottom left corner of the project sidebar.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  */
 export interface FeaturePreviewDisabledEvent {
   action: 'feature_preview_disabled'
@@ -261,7 +261,7 @@ export interface FeaturePreviewDisabledEvent {
  * Existing project creation form was submitted and the project was created.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page new/{slug}
  */
 export interface ProjectCreationSimpleVersionSubmittedEvent {
@@ -278,7 +278,7 @@ export interface ProjectCreationSimpleVersionSubmittedEvent {
  * Existing project creation form confirm modal was triggered and opened.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page new/{slug}
  */
 export interface ProjectCreationSimpleVersionConfirmModalOpenedEvent {
@@ -296,7 +296,7 @@ export interface ProjectCreationSimpleVersionConfirmModalOpenedEvent {
  * in the prompt textarea indicating an intention to use the prompt.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page new/v2/{slug}
  */
 export interface ProjectCreationInitialStepPromptIntendedEvent {
@@ -314,7 +314,7 @@ export interface ProjectCreationInitialStepPromptIntendedEvent {
  * First step of project creation was submitted, where the user writes a prompt or select to start blank or to migrate.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page new/v2/{slug}
  */
 export interface ProjectCreationInitialStepSubmittedEvent {
@@ -331,7 +331,7 @@ export interface ProjectCreationInitialStepSubmittedEvent {
  * After the InitialStep screen, at least 5 characters were typed in the prompt textarea indicating an intention to use the prompt.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page new/v2/{slug}
  */
 export interface ProjectCreationSecondStepPromptIntendedEvent {
@@ -350,7 +350,7 @@ export interface ProjectCreationSecondStepPromptIntendedEvent {
  * if the project creation was successful, please refer to project_created event.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page new/v2/{slug}
  */
 export interface ProjectCreationSecondStepSubmittedEvent {
@@ -361,7 +361,7 @@ export interface ProjectCreationSecondStepSubmittedEvent {
  * User clicked either "Listening to channel" or "Start listening" button after selecting a channel.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/realtime/inspector
  */
 export interface RealtimeInspectorListenChannelClickedEvent {
@@ -376,7 +376,7 @@ export interface RealtimeInspectorListenChannelClickedEvent {
  * A broadcast message was sent from the SendMessageModal.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/realtime/inspector
  */
 export interface RealtimeInspectorBroadcastSentEvent {
@@ -391,7 +391,7 @@ export interface RealtimeInspectorBroadcastSentEvent {
  * User clicked a message in the RealtimeInspector, which opens a sidebar that shows the messsage details including metadata.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/realtime/inspector
  */
 export interface RealtimeInspectorMessageClickedEvent {
@@ -406,7 +406,7 @@ export interface RealtimeInspectorMessageClickedEvent {
  * A message was copied from the RealtimeInspector.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/realtime/inspector
  */
 export interface RealtimeInspectorCopyMessageClickedEvent {
@@ -421,7 +421,7 @@ export interface RealtimeInspectorCopyMessageClickedEvent {
  * Filters were applied in the RealtimeInspector.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/realtime/inspector
  */
 export interface RealtimeInspectorFiltersAppliedEvent {
@@ -436,7 +436,7 @@ export interface RealtimeInspectorFiltersAppliedEvent {
  * Database role was updated in the RealtimeInspector.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/realtime/inspector
  */
 export interface RealtimeInspectorDatabaseRoleUpdatedEvent {
@@ -451,7 +451,7 @@ export interface RealtimeInspectorDatabaseRoleUpdatedEvent {
  * User clicked to toggle realtime on a table.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/editor
  */
 export interface RealtimeToggleTableClickedEvent {
@@ -476,7 +476,7 @@ export interface RealtimeToggleTableClickedEvent {
  * User clicked the quickstart card in the SQL editor.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/sql
  */
 export interface SqlEditorQuickstartClickedEvent {
@@ -497,7 +497,7 @@ export interface SqlEditorQuickstartClickedEvent {
  * User clicked the template card in the SQL editor.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/sql
  */
 export interface SqlEditorTemplateClickedEvent {
@@ -518,7 +518,7 @@ export interface SqlEditorTemplateClickedEvent {
  * User clicked the "Result download CSV" button in the SQL editor.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/sql
  */
 export interface SqlEditorResultDownloadCsvClickedEvent {
@@ -533,7 +533,7 @@ export interface SqlEditorResultDownloadCsvClickedEvent {
  * User clicked the "Result copy Markdown" button in the SQL editor.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/sql
  */
 export interface SqlEditorResultCopyMarkdownClickedEvent {
@@ -548,7 +548,7 @@ export interface SqlEditorResultCopyMarkdownClickedEvent {
  * User clicked the "Result copy JSON" button in the SQL editor
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/sql
  */
 export interface SqlEditorResultCopyJsonClickedEvent {
@@ -563,7 +563,7 @@ export interface SqlEditorResultCopyJsonClickedEvent {
  * User submitted a prompt to the assistant sidebar.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  */
 export interface AssistantPromptSubmittedEvent {
   action: 'assistant_prompt_submitted'
@@ -577,7 +577,7 @@ export interface AssistantPromptSubmittedEvent {
  * User submitted a debug request to the assistant sidebar or prompt submitted has Help me to debug.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  */
 export interface AssistantDebugSubmittedEvent {
   action: 'assistant_debug_submitted'
@@ -591,7 +591,7 @@ export interface AssistantDebugSubmittedEvent {
  * User clicked the run query button in the suggestion provided in the assistant sidebar.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  */
 export interface AssistantSuggestionRunQueryClickedEvent {
   action: 'assistant_suggestion_run_query_clicked'
@@ -611,7 +611,7 @@ export interface AssistantSuggestionRunQueryClickedEvent {
  * The dropdown options only appear in any page with 'sql' in url.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/sql
  */
 export interface AssistantSqlDiffHandlerEvaluatedEvent {
@@ -632,7 +632,7 @@ export interface AssistantSqlDiffHandlerEvaluatedEvent {
  * User clicked Edit in SQL Editor button in the assistant sidebar when user is in any page that does not have 'sql' in url or is in a new snippet.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  */
 export interface AssistantEditInSqlEditorClickedEvent {
   action: 'assistant_edit_in_sql_editor_clicked'
@@ -653,7 +653,7 @@ export interface AssistantEditInSqlEditorClickedEvent {
  * User clicked on Add block -> SQL Snippets -> a SQL snippet in a custom reports page.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/reports/{id}
  */
 export interface CustomReportAddSQLBlockClicked {
@@ -664,7 +664,7 @@ export interface CustomReportAddSQLBlockClicked {
  * User dragged and dropped a SQL block from the Assistant Panel into the custom report while on a custom report page.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/reports/{id}
  */
 export interface CustomReportAssistantSQLBlockAdded {
@@ -917,7 +917,7 @@ export interface SignInButtonClickedEvent {
  * User clicked the "Help" button in the top right corner of the page header.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  */
 export interface HelpButtonClickedEvent {
   action: 'help_button_clicked'
@@ -931,7 +931,7 @@ export interface HelpButtonClickedEvent {
  * User clicked the "Send Feedback" button in the top right corner of the page header.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  */
 export interface SendFeedbackButtonClickedEvent {
   action: 'send_feedback_button_clicked'
@@ -945,7 +945,7 @@ export interface SendFeedbackButtonClickedEvent {
  * User clicked on an example project card.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /project/{ref}
  */
 export interface ExampleProjectCardClickedEvent {
@@ -966,7 +966,7 @@ export interface ExampleProjectCardClickedEvent {
  * User clicked the "Import Data" button.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/editor
  */
 export interface ImportDataButtonClickedEvent {
@@ -989,7 +989,7 @@ export interface ImportDataButtonClickedEvent {
  * User added data from the import data via CSV/spreadsheet successfully.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/editor
  */
 export interface ImportDataAddedEvent {
@@ -1004,7 +1004,7 @@ export interface ImportDataAddedEvent {
  * User clicked the run query button in the SQL editor.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/sql/{id}
  */
 export interface SqlEditorQueryRunButtonClickedEvent {
@@ -1019,7 +1019,7 @@ export interface SqlEditorQueryRunButtonClickedEvent {
  * User clicked on the CTA button on a plan in the pricing side panel in studio.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /billing?panel=subscriptionPlan
  */
 export interface StudioPricingPlanCtaClickedEvent {
@@ -1041,7 +1041,7 @@ export interface StudioPricingPlanCtaClickedEvent {
  * User opened the pricing side panel in studio.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /billing?panel=subscriptionPlan
  */
 export interface StudioPricingSidePanelOpenedEvent {
@@ -1060,7 +1060,7 @@ export interface StudioPricingSidePanelOpenedEvent {
  * User clicks on grafana banner in studio Reports page.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /reports/database
  */
 export interface ReportsDatabaseGrafanaBannerClickedEvent {
@@ -1075,7 +1075,7 @@ export interface ReportsDatabaseGrafanaBannerClickedEvent {
  * User clicked the deploy button for an Edge Function.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/functions/new
  */
 export interface EdgeFunctionDeployButtonClickedEvent {
@@ -1098,7 +1098,7 @@ export interface EdgeFunctionDeployButtonClickedEvent {
  * User clicked the confirm deploy updates button for an Edge Function in the code page within the warning model.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/functions/{id}/code
  */
 export interface EdgeFunctionDeployUpdatesConfirmClickedEvent {
@@ -1113,7 +1113,7 @@ export interface EdgeFunctionDeployUpdatesConfirmClickedEvent {
  * User clicked the AI Assistant button to create an Edge Function.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/functions
  */
 export interface EdgeFunctionAiAssistantButtonClickedEvent {
@@ -1137,7 +1137,7 @@ export interface EdgeFunctionAiAssistantButtonClickedEvent {
  * User clicked the button to go to the functions editor page to create an edge function.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/functions
  */
 export interface EdgeFunctionViaEditorButtonClickedEvent {
@@ -1160,7 +1160,7 @@ export interface EdgeFunctionViaEditorButtonClickedEvent {
  * User clicked on an Edge Function template.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/functions
  */
 export interface EdgeFunctionTemplateClickedEvent {
@@ -1184,7 +1184,7 @@ export interface EdgeFunctionTemplateClickedEvent {
  * User clicked the button to create an edge function via CLI.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/functions
  */
 export interface EdgeFunctionViaCliButtonClickedEvent {
@@ -1207,7 +1207,7 @@ export interface EdgeFunctionViaCliButtonClickedEvent {
  * User clicked the deploy updates button for an edge function.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/functions/{id}/code
  */
 export interface EdgeFunctionDeployUpdatesButtonClickedEvent {
@@ -1222,7 +1222,7 @@ export interface EdgeFunctionDeployUpdatesButtonClickedEvent {
  * User clicked the Send Request button for testing an Edge Function.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/functions/{id}
  */
 export interface EdgeFunctionTestSendButtonClickedEvent {
@@ -1243,7 +1243,7 @@ export interface EdgeFunctionTestSendButtonClickedEvent {
  * User opened the side panel for testing an edge function.
  *
  * @group Events
- * @source studio
+ * @source powerbase
  * @page /dashboard/project/{ref}/functions/{id}
  */
 export interface EdgeFunctionTestSidePanelOpenedEvent {

@@ -30,8 +30,8 @@ importers:
         specifier: ^2.71.3
         version: 2.71.4
       '@skorpland/functions-js':
-        specifier: ^2.4.9
-        version: 2.4.9
+        specifier: ^2.5.0
+        version: 2.5.0
       '@skorpland/node-fetch':
         specifier: ^2.7.5
         version: 2.7.5
@@ -43,7 +43,7 @@ importers:
         version: 2.11.7
       '@skorpland/ssr':
         specifier: ^0.0.8
-        version: 0.0.8(@skorpland/powerbase-js@2.50.8(typescript@5.5.4))
+        version: 0.0.8(@skorpland/powerbase-js@2.51.7(typescript@5.5.4))
       '@skorpland/storage-js':
         specifier: ^2.7.4
         version: 2.7.4
@@ -606,8 +606,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/pg-meta
       '@skorpland/powerbase-js':
-        specifier: ^2.50.8
-        version: 2.50.8(typescript@5.5.4)
+        specifier: ^2.51.6
+        version: 2.51.7(typescript@5.5.4)
       '@skorpland/realtime-js':
         specifier: ^2.11.7
         version: 2.11.7
@@ -1226,8 +1226,8 @@ importers:
         specifier: ^1.0.5
         version: 1.1.7(@types/react-dom@18.3.6(@types/react@18.3.20))(@types/react@18.3.20)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@skorpland/powerbase-js':
-        specifier: ^2.50.8
-        version: 2.50.8(typescript@5.5.4)
+        specifier: ^2.51.6
+        version: 2.51.7(typescript@5.5.4)
       '@vercel/og':
         specifier: ^0.6.2
         version: 0.6.8
@@ -1446,8 +1446,8 @@ importers:
         specifier: ^0.18.5
         version: 0.18.17
       '@skorpland/powerbase-js':
-        specifier: ^2.50.8
-        version: 2.50.8(typescript@5.5.4)
+        specifier: ^2.51.6
+        version: 2.51.7(typescript@5.5.4)
       ai:
         specifier: ^3.4.33
         version: 3.4.33(openai@4.93.0(encoding@0.1.13)(ws@8.18.1)(zod@3.23.8))(react@18.2.0)(sswr@2.2.0(svelte@5.26.2))(svelte@5.26.2)(vue@3.5.13(typescript@5.5.4))(zod@3.23.8)
@@ -5098,8 +5098,8 @@ packages:
   '@skorpland/functions-js@2.4.4':
     resolution: {integrity: sha512-23K90bT1XlNTS/mT9mKvAm3pW14/ACj1rFMlyNZtQjcyq3CeO8roWOLOsurrCFqF+sIgkPVJOhy/Lb9rI/WzDA==, tarball: https://npm.pkg.github.com/download/@skorpland/functions-js/2.4.4/39dad545638bf16b8aac4e40d0790b367a69f2f4}
 
-  '@skorpland/functions-js@2.4.9':
-    resolution: {integrity: sha512-Jvd5UNmIT8uMCp7YDzLPWthj7KfcGC2wMSdaSW2/AYVdLe7vPRiRZ+Bme/WyUV36WMA6Sncx1YrzEsVnMahv+Q==, tarball: https://npm.pkg.github.com/download/@skorpland/functions-js/2.4.9/e6dc430b75265138dfb25f13a005b2a609fa0d40}
+  '@skorpland/functions-js@2.5.0':
+    resolution: {integrity: sha512-Jvd5UNmIT8uMCp7YDzLPWthj7KfcGC2wMSdaSW2/AYVdLe7vPRiRZ+Bme/WyUV36WMA6Sncx1YrzEsVnMahv+Q==, tarball: https://npm.pkg.github.com/download/@skorpland/functions-js/2.5.0/e6dc430b75265138dfb25f13a005b2a609fa0d40}
 
   '@skorpland/node-fetch@2.7.5':
     resolution: {integrity: sha512-PPDPSD9o8XvE/w3nh7n09gtXtCkuUntvhrtPRIbgznvbOYIrdRER3vRwh7xUU9yd+8hWq36VoOP22dJ65eKL8A==, tarball: https://npm.pkg.github.com/download/@skorpland/node-fetch/2.7.5/dc59811571b671ade7fc29b6b7df3612f63672b2}
@@ -5116,6 +5116,9 @@ packages:
 
   '@skorpland/powerbase-js@2.50.8':
     resolution: {integrity: sha512-l7B64HK3YAS3TQtf/+4tGWFwXpoMkdRGGMlIKkZGzfJhmFnxSc04BxwCEjfdkN7RqghPyPquW1xkTcOS9YG9uQ==, tarball: https://npm.pkg.github.com/download/@skorpland/powerbase-js/2.50.8/3574054e97f48f974fe6106c7d93d34ae836a355}
+
+  '@skorpland/powerbase-js@2.51.7':
+    resolution: {integrity: sha512-PX5YiOd04Pe8e/FBNTlIkrojM4GtWBZIjZlWlHNgWe+1XXNKzJQdjrnuyyzZQAgXVx8566lko3mXuiVqmroYxg==}
 
   '@skorpland/react-beautiful-dnd@13.1.8':
     resolution: {integrity: sha512-8Er67nAaZ72oikNMXnZh08geSIV1hrYhIPB/0t/q7nevaIKVw5Am1Kvj6uysJuGDqxJbLx+clQiHHC6JD619LQ==, tarball: https://npm.pkg.github.com/download/@skorpland/react-beautiful-dnd/13.1.8/d2a6f9c67ad4ec38bb2cc9acaa9b66f3d830d9ab}
@@ -7921,6 +7924,7 @@ packages:
     resolution: {integrity: sha512-X41YRfKkVCooILai2N0aN0Q5O0imu+MbNt894QWU683A82xJJXIR01dEqxwYJ91M6IdExtyFB3GCOJb4eBMBMQ==}
     peerDependencies:
       eslint: '>= 5'
+    bundledDependencies: []
 
   eslint-plugin-import@2.31.0:
     resolution: {integrity: sha512-ixmkI62Rbc2/w8Vfxyh1jQRTdRTF52VxwRVHl/ykPAmqG+Nb7/kNn+byLP0LxPgI7zWA16Jt82SybJInmMia3A==}
@@ -17706,7 +17710,7 @@ snapshots:
     dependencies:
       '@skorpland/node-fetch': 2.7.5
 
-  '@skorpland/functions-js@2.4.9':
+  '@skorpland/functions-js@2.5.0':
     dependencies:
       '@skorpland/node-fetch': 2.7.5
 
@@ -17748,6 +17752,19 @@ snapshots:
     dependencies:
       '@skorpland/auth-js': 2.71.4
       '@skorpland/functions-js': 2.4.4
+      '@skorpland/node-fetch': 2.7.5
+      '@skorpland/postgrest-js': 1.19.7(typescript@5.5.4)
+      '@skorpland/realtime-js': 2.11.7
+      '@skorpland/storage-js': 2.7.4
+    transitivePeerDependencies:
+      - bufferutil
+      - typescript
+      - utf-8-validate
+
+  '@skorpland/powerbase-js@2.51.7(typescript@5.5.4)':
+    dependencies:
+      '@skorpland/auth-js': 2.71.4
+      '@skorpland/functions-js': 2.5.0
       '@skorpland/node-fetch': 2.7.5
       '@skorpland/postgrest-js': 1.19.7(typescript@5.5.4)
       '@skorpland/realtime-js': 2.11.7
@@ -17806,9 +17823,9 @@ snapshots:
       '@skorpland/powerbase-js': 2.50.8(typescript@5.5.4)
       cookie: 1.0.2
 
-  '@skorpland/ssr@0.0.8(@skorpland/powerbase-js@2.50.8(typescript@5.5.4))':
+  '@skorpland/ssr@0.0.8(@skorpland/powerbase-js@2.51.7(typescript@5.5.4))':
     dependencies:
-      '@skorpland/powerbase-js': 2.50.8(typescript@5.5.4)
+      '@skorpland/powerbase-js': 2.51.7(typescript@5.5.4)
       cookie: 1.0.2
 
   '@skorpland/storage-js@2.7.4':

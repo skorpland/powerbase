@@ -1,5 +1,5 @@
 {
-  "name": "skorpland@powerbase",
+  "name": "@skorpland/powerbase",
   "description": "Powerbase is your open-source Firebase and Supabase alternative. Designed for modern developers. Built for scale.",
   "version": "2.50.0",
   "author": "Powerbase",
@@ -61,7 +61,7 @@
   },
   "dependencies": {
     "@skorpland/auth-js": "^2.71.3",
-    "@skorpland/functions-js": "^2.4.9",
+    "@skorpland/functions-js": "^2.5.0",
     "@skorpland/node-fetch": "^2.7.5",
     "@skorpland/postgrest-js": "^1.19.7",
     "@skorpland/realtime-js": "^2.11.7",

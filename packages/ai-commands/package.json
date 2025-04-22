@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@serafin/schema-builder": "^0.18.5",
-    "@skorpland/powerbase-js": "^2.50.8",
+    "@skorpland/powerbase-js": "^2.51.6",
     "ai": "^3.4.33",
     "common-tags": "^1.8.2",
     "config": "workspace:*",

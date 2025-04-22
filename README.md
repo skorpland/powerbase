@@ -76,7 +76,7 @@ You can also [self-host](https://powerbase.club/docs/guides/hosting/overview) an
 - [PostgREST](http://postgrest.org/) is a web server that turns your PostgreSQL database directly into a RESTful API.
 - [GoTrue](https://github.com/skorpland/gotrue) is a JWT-based authentication API that simplifies user sign-ups, logins, and session management in your applications.
 - [Storage](https://github.com/skorpland/storage-api) a RESTful API for managing files in S3, with Postgres handling permissions.
-- [pg_graphql](http://github.com/powerbase/pg_graphql/) a PostgreSQL extension that exposes a GraphQL API.
+- [pg_graphql](http://github.com/skorpland/pg_graphql/) a PostgreSQL extension that exposes a GraphQL API.
 - [postgres-meta](https://github.com/skorpland/postgres-meta) is a RESTful API for managing your Postgres, allowing you to fetch tables, add roles, and run queries, etc.
 - [Kong](https://github.com/Kong/kong) is a cloud-native API gateway.
 
